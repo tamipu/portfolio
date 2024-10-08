@@ -7,10 +7,10 @@ import Footer from './components/Footer';
 
 const App: React.FC = () => {
     return (
-        <div className="min-h-screen bg-gray-900 text-white">
+        <div className="app-container"
+             style={{ backgroundColor: 'rgb(1,32,51)' }}>
             <Header/>
             <Hero/>
-            <Projects/>
             <Footer/>
         </div>
     );

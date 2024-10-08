@@ -3,17 +3,25 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const Footer: React.FC = () => {
     return (
-        <footer id="contact" className="footer">
-            <p>Email: ttmpwork@gmail.com | Phone: (+33) 7 64 35 46 92</p>
-            <div className="social-icons">
-                <a href="https://github.com/tamipu" target="_blank" rel="noopener noreferrer">
-                    <FaGithub/>
+        <footer id="contact" className="d-flex justify-content-center align-items-center p-3">
+            <div className="social-icons d-flex justify-content-center">
+                <a
+                    href="https://github.com/tamipu"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mx-2 text-white"
+                >
+                    <FaGithub size={25} />
                 </a>
-                <a href="https://www.linkedin.com/in/phuong-ta-6989b0190/" target="_blank" rel="noopener noreferrer">
-                    <FaLinkedin/>
+                <a
+                    href="https://www.linkedin.com/in/phuong-ta-6989b0190/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mx-2 text-white"
+                >
+                    <FaLinkedin size={25} />
                 </a>
             </div>
-            <p>&copy;2024 All Rights Reserved.</p>
         </footer>
     );
 };
