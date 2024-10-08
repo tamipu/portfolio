@@ -6,13 +6,14 @@ const Footer: React.FC = () => {
         <footer id="contact" className="footer">
             <p>Email: ttmpwork@gmail.com | Phone: (+33) 7 64 35 46 92</p>
             <div className="social-icons">
-                <a href="https://github.com/your-profile" target="_blank" rel="noopener noreferrer">
-                    <FaGithub />
+                <a href="https://github.com/tamipu" target="_blank" rel="noopener noreferrer">
+                    <FaGithub/>
                 </a>
-                <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">
-                    <FaLinkedin />
+                <a href="https://www.linkedin.com/in/phuong-ta-6989b0190/" target="_blank" rel="noopener noreferrer">
+                    <FaLinkedin/>
                 </a>
             </div>
+            <p>&copy;2024 All Rights Reserved.</p>
         </footer>
     );
 };

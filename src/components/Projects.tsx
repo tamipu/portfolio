@@ -11,7 +11,6 @@ const projects = [
         description: 'Designed and implemented a data warehouse for fast decision-making analytics.',
         technologies: ['SQL', 'ETL', 'Data Warehouse'],
     },
-    // Add more projects as needed
 ];
 
 const Projects: React.FC = () => {

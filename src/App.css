@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+a {
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: #f59e0b;
+}
+
+img {
+    border-radius: 9999px;
+}
