@@ -1,20 +1,19 @@
 import React from 'react';
 import { FaHome, FaEnvelope } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const Header: React.FC = () => {
     return (
-        <header className="d-flex justify-content-between align-items-center p-3" style={{height: '13vh'}}>
+        <header className="d-flex justify-content-between align-items-center p-3" style={{height: '15vh'}}>
             <div className="d-flex align-items-center">
-                <FaHome className="text-white h4" />
+                <Link className="nav-link text-white" to="/"><FaHome className="text-white h4" /></Link>
             </div>
             <nav className="mx-auto">
                 <ul className="nav justify-content-center">
                     <li className="nav-item">
-                        <a className="nav-link text-white" href="#about">About</a>
-                    </li>
+                        <Link className="nav-link text-white" to="/about">About</Link>                    </li>
                     <li className="nav-item">
-                        <a className="nav-link text-white" href="#projects">Projects</a>
-                    </li>
+                        <Link className="nav-link text-white" to="/projects">Projects</Link>                    </li>
                 </ul>
             </nav>
             <div>

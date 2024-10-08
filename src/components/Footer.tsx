@@ -3,7 +3,8 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const Footer: React.FC = () => {
     return (
-        <footer id="contact" className="d-flex justify-content-center align-items-center p-3">
+        <footer id="contact" className="d-flex justify-content-center align-items-center p-3"
+                style={{height: '10vh'}}>
             <div className="social-icons d-flex justify-content-center">
                 <a
                     href="https://github.com/tamipu"
