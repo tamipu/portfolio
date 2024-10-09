@@ -1,10 +1,10 @@
 import React from 'react';
-import RadarChartSkills from './SkillsChart';
-import LanguagesCard from './LanguagesCard';
+import RadarChartSkills from './skills/SkillsChart';
+import LanguagesCard from './languages/LanguagesCard';
 
 const About: React.FC = () => {
     return (
-        <>
+        <div style={{height: '75vh'}}>
             <section className="p-5 text-center"
                      style={{
                          height: 'auto',
@@ -20,7 +20,7 @@ const About: React.FC = () => {
                     <LanguagesCard/>
                 </div>
             </section>
-        </>
+        </div>
 );
 };
 

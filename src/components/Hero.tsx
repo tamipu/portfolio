@@ -4,8 +4,7 @@ const Hero: React.FC = () => {
     return (
         <section
             className="hero d-flex flex-column justify-content-center align-items-center text-center p-5"
-            style={{ height: '75vh' }}
-        >
+            style={{ height: '75vh' }}>
             <div className="avatar-container mb-4" style={{ position: 'relative', padding: '5px' }}>
                 <div
                     className="ring"

@@ -4,8 +4,8 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Footer from './components/Footer';
-import About from './components/About';
-import ProjectsList from "./components/ProjectsList";
+import About from './components/about/About';
+import ProjectsList from "./components/projects/ProjectsList";
 
 const App: React.FC = () => {
     return (
