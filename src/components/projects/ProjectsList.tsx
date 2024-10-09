@@ -6,7 +6,7 @@ const ProjectsList: React.FC = () => {
         <>
             <div
                 style={{padding: '15px', height: '100%'}}>
-                <h3 style={{color: '#ffffff', textAlign: 'left'}}>Some Projects</h3>
+                <h3 style={{color: '#ffffff', textAlign: 'left'}}>Featured Projects</h3>
             </div>
             <div className="projects-grid" style={{height: '75vh'}}>
                 <ProjectCard

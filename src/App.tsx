@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
-import Header from './components/Header';
-import Hero from './components/Hero';
+import Header from './components/header/Header';
+import Hero from './components/hero/Hero';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Footer from './components/Footer';
+import Footer from './components/footer/Footer';
 import About from './components/about/About';
 import ProjectsList from "./components/projects/ProjectsList";
 

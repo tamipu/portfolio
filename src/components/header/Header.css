@@ -1,0 +1,24 @@
+.nav-link {
+    position: relative;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link::after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 0;
+    background: #e74c3c;
+    transition: width 0.3s;
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    transform: translateX(-50%);
+}
+
+.nav-link:hover::after,
+.nav-link:focus::after,
+.nav-link.active::after {
+    width: 100%;
+}
