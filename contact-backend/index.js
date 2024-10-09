@@ -26,6 +26,10 @@ const db = new sqlite3.Database('./contacts.db', (err) => {
     }
 });
 
+app.get('/', (req, res) => {
+    res.send('coucou');
+});
+
 // POST route to handle contact form submission
 app.post('/api/contact', (req, res) => {
     const { name, email, message } = req.body;
