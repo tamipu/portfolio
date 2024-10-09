@@ -14,7 +14,7 @@ const Hero: React.FC = () => {
                 </div>
             </div>
             <h2 className="display-4">
-                Mia <span style={{ color: 'rgb(112,169,211)' }}>Phuong</span>
+                Mia <span style={{ color: '#e74c3c' }}>Phuong</span>
             </h2>
             <p className="lead">Full Stack Developer</p>
         </section>

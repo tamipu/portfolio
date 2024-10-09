@@ -29,7 +29,7 @@ const RadarChartSkills: React.FC = () => {
                 { name: 'MongoDB', max: 100 },
                 { name: 'PostgreSQL', max: 100 },
                 { name: 'Agile', max: 100 },
-                { name: 'Scrum', max: 100 },
+                { name: 'Sketch', max: 100 },
             ],
         },
         series: [{
@@ -43,7 +43,7 @@ const RadarChartSkills: React.FC = () => {
                         80, 90, 75,         // Technologies
                         60, 85, 80,         // Tools
                         75, 55, 80,         // Databases
-                        90, 80              // Methodologies
+                        90, 60              // Methodologies & Design
                     ],
                     name: 'Skill Level'
                 }

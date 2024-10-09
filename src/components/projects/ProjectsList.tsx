@@ -27,10 +27,17 @@ const ProjectsList: React.FC = () => {
                 />
                 <ProjectCard
                     title="Java Projects"
-                    description="Developed a real-time stream application to send messages.
-                Collaborated in a team of five to build the 'Battleship' game project."
+                    description="Stream Live Application (Developed a real-time messaging application using Spring Boot, with full REST API integration)
+& Battleship Game (Collaborated within a team of five to develop a multiplayer game with real-time  features)."
                     githubLink="https://github.com/tamipu/Projects-in-Java"
                     techStack={['Java']}
+                />
+                <ProjectCard
+                    title="Database Design Project (MOOC Platform)"
+                    description="Utilized Verbatelo, DBEaver, and PostgreSQL for the design and development of the database.
+Applied the MERISE methodology to ensure a structured and coherent database design, from conceptual modeling to the implementation of SQL queries."
+                    githubLink="https://github.com/tamipu/Projet-de-conception-BDD"
+                    techStack={[]}
                 />
             </div>
         </>);
