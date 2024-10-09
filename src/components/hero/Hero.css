@@ -54,18 +54,7 @@
     }
 }
 
-/* Hero Section for mobile */
 @media (max-width: 600px) {
-    .hero {
-        padding: 20px;
-        height: auto;
-    }
-
-    .avatar-container {
-        width: 80px;
-        height: 80px;
-    }
-
     h2 {
         font-size: 2.5rem;
     }
