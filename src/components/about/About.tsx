@@ -1,6 +1,6 @@
 import React from 'react';
-import RadarChartSkills from './skills/SkillsChart';
-import LanguagesCard from './languages/LanguagesCard';
+import RadarChartSkills from './SkillsChart';
+import LanguagesCard from './LanguagesCard';
 import './About.css';
 
 const About: React.FC = () => {
@@ -33,7 +33,7 @@ const About: React.FC = () => {
             {/* Skill and Language Section */}
             <div className="skills-languages-section">
                 <section className="section-content">
-                    <div className="section-item">
+                    <div className="section-item-chart section-item">
                         <RadarChartSkills/>
                     </div>
                     <div className="section-item">

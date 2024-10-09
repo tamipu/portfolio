@@ -55,7 +55,7 @@ const RadarChartSkills: React.FC = () => {
     };
 
     return (
-        <div className="card" style={{ padding: '20px', backgroundColor: '#2c3e50', borderRadius: '8px', height: '100%' }}>
+        <div className="card" style={{ padding: '20px', backgroundColor: '#2c3e50', borderRadius: '8px', height: '100%', width: '100%' }}>
             <h3 style={{ color: '#ffffff', textAlign: 'center' }}>Skills Overview</h3>
             <ReactECharts option={option} style={{ height: '300px', width: '100%' }} />
         </div>

@@ -8,7 +8,7 @@ const ProjectsList: React.FC = () => {
                 style={{padding: '15px', height: '100%'}}>
                 <h3 style={{color: '#ffffff', textAlign: 'left'}}>Featured Projects</h3>
             </div>
-            <div className="projects-grid" style={{height: '75vh'}}>
+            <div className="projects-grid">
                 <ProjectCard
                     title='Web Application "Recipe"'
                     description="Developed a web application using PHP Laravel (MVC model) and SQLite for dynamic recipe management.

@@ -6,6 +6,11 @@
     margin: 20px;
     position: relative;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
 }
 
 .project-card h3 {
@@ -34,4 +39,16 @@
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+}
+
+@media (max-width: 600px) {
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .projects-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
