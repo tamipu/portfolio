@@ -9,7 +9,7 @@ const About: React.FC = () => {
             {/* Main Profile Section */}
             <div className="profile-section">
                 <img
-                    src="/photo.png"
+                    src="/images/photo.png"
                     alt="Profile"
                     className="profile-img"
                 />

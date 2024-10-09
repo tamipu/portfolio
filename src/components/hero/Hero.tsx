@@ -21,7 +21,7 @@ const Hero: React.FC = () => {
                     }}
                 >
                     <img
-                        src="/photo.png"
+                        src="/images/photo.png"
                         alt="Phuong's Avatar"
                         className="avatar rounded-circle"
                         style={{ width: '170px', height: '170px', objectFit: 'cover' }}
