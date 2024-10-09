@@ -19,7 +19,7 @@ const RadarChartSkills: React.FC = () => {
                 { name: 'Laravel', max: 100 },
                 { name: 'Spring Boot', max: 100 },
                 { name: 'Bootstrap', max: 100 },
-                { name: 'Webpack', max: 100 },
+                { name: 'Figma', max: 100 },
                 { name: 'GitLab CI/CD', max: 100 },
                 { name: 'Node.js', max: 100 },
                 { name: 'Docker', max: 100 },
