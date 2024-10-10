@@ -39,6 +39,19 @@ Applied the MERISE methodology to ensure a structured and coherent database desi
                     githubLink="https://github.com/tamipu/Projet-de-conception-BDD"
                     techStack={[]}
                 />
+                <ProjectCard
+                    title="Charts Spring Boot Application"
+                    description="Spring Boot application that provides a REST API for generating chart templates and series data using Apache ECharts."
+                    githubLink="https://github.com/tamipu/echarts-springboot-api"
+                    techStack={['Java']}
+                />
+                <ProjectCard
+                    title="Mood Tracker with Visual Journal"
+                    description="Developed a Mood Tracker web application using TypeScript, React with an interactive visual journal, enabling users to record and monitor their mood over time.
+Integrated charting libraries to visualize users' mood patterns in graphical formats, allowing for better insights into their emotional well-being."
+                    githubLink="https://github.com/tamipu/mood-tracker-journey"
+                    techStack={[]}
+                />
             </div>
         </>);
 }

@@ -36,7 +36,7 @@ const About: React.FC = () => {
                     <div className="section-item-chart section-item">
                         <RadarChartSkills/>
                     </div>
-                    <div className="section-item">
+                    <div className="section-item-language section-item">
                         <LanguagesCard/>
                     </div>
                 </section>
