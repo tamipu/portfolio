@@ -8,13 +8,14 @@ You can view the live demo of the application [here](https://miaphuong.vercel.ap
 
 - **Frontend**: 
   - React
-  - JavaScript
+  - TypeScript
   - CSS
   - React Router
   - Vercel for deployment
 
 - **Backend**: 
   - Node.js
+  - JavaScript
   - Express.js
   - SQLite
   - Render for deployment
