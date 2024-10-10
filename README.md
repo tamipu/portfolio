@@ -2,7 +2,7 @@
 
 ## Demo
 
-You can view the live demo of the application [here](https://miaphuong.vercel.app/about).
+You can view the live demo of the application [here](https://miaphuong.vercel.app/).
 
 ## Technologies Used
 
