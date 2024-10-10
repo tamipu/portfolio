@@ -40,8 +40,8 @@ Applied the MERISE methodology to ensure a structured and coherent database desi
                     techStack={[]}
                 />
                 <ProjectCard
-                    title="Charts Spring Boot Application"
-                    description="Spring Boot application that provides a REST API for generating chart templates and series data using Apache ECharts."
+                    title="Charts Application"
+                    description="A Spring Boot application that provides a REST API for generating chart templates and series data using Apache ECharts."
                     githubLink="https://github.com/tamipu/echarts-springboot-api"
                     techStack={['Java']}
                 />
