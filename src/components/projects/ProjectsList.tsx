@@ -40,6 +40,12 @@ Applied the MERISE methodology to ensure a structured and coherent database desi
                     techStack={[]}
                 />
                 <ProjectCard
+                    title="Parking System Analysis"
+                    description="Conducted a detailed analysis of a parking management system. Designed and modeled the system's architecture with UML diagrams, including class, sequence, and activity diagrams to cover all key functionalities."
+                    githubLink="https://www.canva.com/design/DAF2O2SZQ-c/1yH_tYMMmeg4yzvoVAWJPw/edit?utm_content=DAF2O2SZQ-c&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+                    techStack={[]}
+                />
+                <ProjectCard
                     title="Charts Application"
                     description="A Spring Boot application that provides a REST API for generating chart templates and series data using Apache ECharts."
                     githubLink="https://github.com/tamipu/echarts-springboot-api"
