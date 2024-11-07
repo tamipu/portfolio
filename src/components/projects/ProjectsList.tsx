@@ -21,8 +21,8 @@ const ProjectsList: React.FC = () => {
                     title="Data Warehouse and Reporting"
                     description="Designed and populated a relational data warehouse with multidimensional modeling (ROLAP and MOLAP) for fast decision-making analysis.
                 Created SQL queries to extract and manipulate data, ensuring fast response times for analytical reports.
-                Integrated data from external sources using ETL tools and set up visual reports for clear data analysis."
-                    githubLink="#"
+                Integrated data from external sources using ETL tools and set up visual reports for clear data analysis with Microsoft PowerBI and Qlik."
+                    githubLink="https://drive.google.com/drive/folders/1iH3cb5YFql1TQJwb_w3Ecijnuek_o_gH"
                     techStack={['PostgreSQL', 'Qlik', 'PowerBI']}
                 />
                 <ProjectCard
