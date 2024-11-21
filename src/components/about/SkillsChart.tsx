@@ -13,7 +13,7 @@ const RadarChartSkills: React.FC = () => {
                 { name: 'JavaScript', max: 100 },
                 { name: 'TypeScript', max: 100 },
                 { name: 'PHP', max: 100 },
-                { name: 'HTML5', max: 100 },
+                { name: 'Java', max: 100 },
                 { name: 'CSS3', max: 100 },
                 { name: 'React', max: 100 },
                 { name: 'Laravel', max: 100 },
