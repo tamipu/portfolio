@@ -58,6 +58,12 @@ Integrated charting libraries to visualize users' mood patterns in graphical for
                     githubLink="https://github.com/tamipu/mood-tracker-journey"
                     techStack={[]}
                 />
+                <ProjectCard
+                    title="Video Download"
+                    description="Une application web Python qui permet de télécharger des vidéos YouTube dans la plus haute résolution."
+                    githubLink="https://github.com/tamipu/video-download"
+                    techStack={[]}
+                />
             </div>
         </>);
 }
