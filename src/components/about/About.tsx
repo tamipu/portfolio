@@ -6,7 +6,6 @@ import './About.css';
 const About: React.FC = () => {
     return (
         <div>
-            {/* Main Profile Section */}
             <div className="profile-section">
                 <img
                     src="/images/photo.png"
@@ -30,7 +29,6 @@ const About: React.FC = () => {
                 </div>
             </div>
 
-            {/* Skill and Language Section */}
             <div className="skills-languages-section">
                 <section className="section-content">
                     <div className="section-item-chart section-item">

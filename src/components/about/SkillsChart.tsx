@@ -14,7 +14,7 @@ const RadarChartSkills: React.FC = () => {
                 { name: 'TypeScript', max: 100 },
                 { name: 'PHP', max: 100 },
                 { name: 'Java', max: 100 },
-                { name: 'CSS3', max: 100 },
+                { name: 'Python', max: 100 },
                 { name: 'React', max: 100 },
                 { name: 'Laravel', max: 100 },
                 { name: 'Spring Boot', max: 100 },
@@ -38,7 +38,7 @@ const RadarChartSkills: React.FC = () => {
             data: [
                 {
                     value: [
-                        85, 80, 70, 90, 85, // Languages
+                        85, 80, 70, 90, 65, // Languages
                         50, 65, 75, 80,     // Frameworks & Libraries
                         80, 90, 75,         // Technologies
                         60, 85, 80,         // Tools
