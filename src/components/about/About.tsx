@@ -23,7 +23,7 @@ const About: React.FC = () => {
                         great user experiences.
                     </p>
                     <p>
-                        With expertise in JavaScript, PHP, React, and Laravel, I aim to create solutions that are
+                        With expertise in Java, JavaScript, PHP, React, and Laravel, I aim to create solutions that are
                         efficient and user-friendly. I believe in continuous learning and collaboration to deliver value
                         to users and businesses alike.
                     </p>
